@@ -1,5 +1,5 @@
 {
-  "name": "RinoMQTTKit",
+  "name": "RinoBaseKit",
   "authors": {
     "RinoSmartInc": "RinoSmart"
   },
@@ -11,20 +11,32 @@
     "ios": "12.4"
   },
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20230919/VOJLMWobf1pK0x_ios_1695117810965.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20230922/VOJLMWobf1pK0x_ios_1695380371362.zip",
     "type": "zip"
   },
-  "summary": "A short description of RinoMQTTKit.",
-  "vendored_frameworks": "Build/RinoMQTTKit.xcframework",
+  "summary": "A short description of RinoBaseKit.",
+  "vendored_frameworks": "Build/RinoBaseKit.xcframework",
   "version": "1.0.1",
   "dependencies": {
     "MJExtension": [
       "~> 3.4.1"
     ],
-    "MQTTClient": [
-      "~> 0.15.3"
+    "RinoCommonDefineKit": [
+
     ],
     "RinoFoundationKit": [
+
+    ],
+    "RinoLanguageKit": [
+
+    ],
+    "RinoMQTTKit": [
+
+    ],
+    "RinoNetworkRequestKit": [
+
+    ],
+    "RinoUIKit": [
 
     ]
   },
