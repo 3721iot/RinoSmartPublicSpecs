@@ -1,0 +1,41 @@
+{
+  "name": "RinoMQTTKit",
+  "authors": {
+    "RinoSmartInc": "RinoSmart"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3721iot",
+  "license": "none",
+  "platforms": {
+    "ios": "12.4"
+  },
+  "source": {
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20230919/VOJLMWobf1pK0x_ios_1695117810965.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of RinoMQTTKit.",
+  "vendored_frameworks": "Build/RinoMQTTKit.xcframework",
+  "version": "1.0.1",
+  "dependencies": {
+    "MJExtension": [
+      "~> 3.4.1"
+    ],
+    "MQTTClient": [
+      "~> 0.15.3"
+    ],
+    "RinoFoundationKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "IPHONEOS_DEPLOYMENT_TARGET": "11.0",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "IPHONEOS_DEPLOYMENT_TARGET": "11.0",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  }
+}
