@@ -1,0 +1,45 @@
+{
+  "name": "RinoProgressHUD",
+  "authors": {
+    "RinoSmartInc": "RinoSmart"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3721iot",
+  "license": "none",
+  "platforms": {
+    "ios": "12.4"
+  },
+  "source": {
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20230925/VOJLMWobf1pK0x_ios_1695644577812.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of RinoProgressHUD.",
+  "vendored_frameworks": "Build/RinoProgressHUD.xcframework",
+  "version": "1.0.0",
+  "dependencies": {
+    "lottie-ios": [
+      "~> 3.2.3"
+    ],
+    "Masonry": [
+      "~> 1.1.0"
+    ],
+    "RinoAppConfigModule": [
+
+    ],
+    "RinoLanguageKit": [
+
+    ],
+    "RinoUIKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  }
+}
