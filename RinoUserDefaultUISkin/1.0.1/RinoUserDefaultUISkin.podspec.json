@@ -1,0 +1,75 @@
+{
+  "name": "RinoUserDefaultUISkin",
+  "authors": {
+    "RinoSmartInc": "RinoSmart"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3721iot",
+  "license": "none",
+  "platforms": {
+    "ios": "12.4"
+  },
+  "source": {
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20230926/OAMAzchObRMxDZ_ios_1695732798923.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of RinoUserDefaultUISkin.",
+  "vendored_frameworks": [
+    "Build/RinoUserDefaultUISkin.xcframework",
+    "Build/ATAuthSDK.framework",
+    "Build/YTXMonitor.framework",
+    "Build/YTXOperators.framework"
+  ],
+  "resources": "Build/ATAuthSDK.framework/ATAuthSDK.bundle",
+  "version": "1.0.1",
+  "dependencies": {
+    "Masonry": [
+      "~> 1.1.0"
+    ],
+    "SDWebImage": [
+      "~> 5.11.1"
+    ],
+    "RinoAppConfigModule": [
+
+    ],
+    "RinoBaseKit": [
+
+    ],
+    "RinoBusinessLibraryModule": [
+
+    ],
+    "RinoCommonDefineKit": [
+
+    ],
+    "RinoDebugKit": [
+
+    ],
+    "RinoFoundationKit": [
+
+    ],
+    "RinoLanguageKit": [
+
+    ],
+    "RinoLibraryModule": [
+
+    ],
+    "RinoProgressHUD": [
+
+    ],
+    "RinoUIKit": [
+
+    ],
+    "RinoWebViewKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  }
+}
