@@ -1,0 +1,84 @@
+{
+  "name": "RinoChatDefaultUISkin",
+  "authors": {
+    "RinoSmartInc": "RinoSmart"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3721iot",
+  "license": "none",
+  "platforms": {
+    "ios": "12.4"
+  },
+  "source": {
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231008/OAMAzchObRMxDZ_ios_1696757543635.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of RinoChatDefaultUISkin.",
+  "vendored_frameworks": "Build/RinoChatDefaultUISkin.xcframework",
+  "version": "1.0.1",
+  "dependencies": {
+    "FMDB/SQLCipher": [
+      "~> 2.7.5"
+    ],
+    "Masonry": [
+      "~> 1.1.0"
+    ],
+    "MJExtension": [
+      "~> 3.4.1"
+    ],
+    "Protobuf": [
+      "~> 3.24.3"
+    ],
+    "SDWebImage": [
+      "~> 5.11.1"
+    ],
+    "SocketRocket": [
+      "~> 0.7.0"
+    ],
+    "YBImageBrowser": [
+      "~> 3.0.9"
+    ],
+    "YBImageBrowser/Video": [
+      "~> 3.0.9"
+    ],
+    "RinoAppConfigModule": [
+
+    ],
+    "RinoBaseKit": [
+
+    ],
+    "RinoBusinessLibraryModule": [
+
+    ],
+    "RinoFoundationKit": [
+
+    ],
+    "RinoLanguageKit": [
+
+    ],
+    "RinoLibraryModule": [
+
+    ],
+    "RinoMiffyBusinessLibrary": [
+
+    ],
+    "RinoNetworkRequestKit": [
+
+    ],
+    "RinoUIKit": [
+
+    ],
+    "RinoWebViewKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  }
+}
