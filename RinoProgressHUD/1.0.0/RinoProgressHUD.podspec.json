@@ -19,7 +19,7 @@
   "version": "1.0.0",
   "dependencies": {
     "lottie-ios": [
-      "~> 3.2.3"
+      "~> 3.4.0"
     ],
     "Masonry": [
       "~> 1.1.0"
