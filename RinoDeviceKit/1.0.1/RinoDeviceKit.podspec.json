@@ -11,18 +11,18 @@
     "ios": "12.4"
   },
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231025/OAMAzchObRMxDZ_ios_1698207595479.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231025/OAMAzchObRMxDZ_ios_1698227277100.zip",
     "type": "zip"
   },
   "summary": "A short description of RinoDeviceKit.",
   "vendored_frameworks": "Build/RinoDeviceKit.xcframework",
   "version": "1.0.1",
-  "swift_versions": "5.0",
   "frameworks": [
     "Foundation",
     "Matter",
     "MatterSupport"
   ],
+  "swift_versions": "5.0",
   "dependencies": {
     "MJExtension": [
       "~> 3.4.1"
@@ -30,10 +30,10 @@
     "RinoAppConfigModule": [
 
     ],
-    "RinoBaseKit": [
+    "RinoBizCore": [
 
     ],
-    "RinoBizCore": [
+    "RinoBaseKit": [
 
     ],
     "RinoCommonDefineKit": [
