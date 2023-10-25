@@ -11,12 +11,13 @@
     "ios": "12.4"
   },
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231016/OAMAzchObRMxDZ_ios_1697421779504.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231025/OAMAzchObRMxDZ_ios_1698229827086.zip",
     "type": "zip"
   },
   "summary": "A short description of RinoProgressHUD.",
   "vendored_frameworks": "Build/RinoProgressHUD.xcframework",
   "version": "1.0.0",
+  "swift_versions": "5.0",
   "dependencies": {
     "lottie-ios": [
       "~> 3.4.0"
@@ -41,5 +42,6 @@
   "user_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  }
+  },
+  "swift_version": "5.0"
 }
