@@ -11,7 +11,7 @@
   },
   "license": "none",
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20230922/VOJLMWobf1pK0x_ios_1695351140418.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231025/OAMAzchObRMxDZ_ios_1698218710996.zip",
     "type": "zip"
   },
   "summary": "A short description of RinoLibraryModule.",
@@ -20,9 +20,6 @@
   "dependencies": {
     "Masonry": [
       "~> 1.1.0"
-    ],
-    "MJRefresh": [
-      "~> 3.7.5"
     ],
     "TZImagePickerController": [
       "~> 3.8.3"
