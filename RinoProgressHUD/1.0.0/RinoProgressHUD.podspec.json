@@ -8,7 +8,7 @@
   "homepage": "https://github.com/3721iot",
   "license": "none",
   "platforms": {
-    "ios": "12.4"
+    "ios": "13.0"
   },
   "source": {
     "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231026/OAMAzchObRMxDZ_ios_1698291556469.zip",
@@ -36,7 +36,7 @@
     ]
   },
   "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "x86_64 arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "user_target_xcconfig": {
