@@ -8,16 +8,19 @@
   "homepage": "https://github.com/3721iot",
   "license": "none",
   "platforms": {
-    "ios": "12.4"
+    "ios": "13.0"
   },
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231008/OAMAzchObRMxDZ_ios_1696755728217.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231027/OAMAzchObRMxDZ_ios_1698401012744.zip",
     "type": "zip"
   },
   "summary": "A short description of RinoMessageDefaultUISKin.",
   "vendored_frameworks": "Build/RinoMessageDefaultUISKin.xcframework",
   "version": "1.0.1",
   "dependencies": {
+    "JXCategoryView": [
+      "~> 1.6.1"
+    ],
     "Masonry": [
       "~> 1.1.0"
     ],
@@ -27,16 +30,10 @@
     "MJRefresh": [
       "~> 3.7.5"
     ],
-    "JXCategoryView": [
-      "~> 1.6.1"
-    ],
     "SDWebImage": [
       "~> 5.11.1"
     ],
     "RinoAppConfigModule": [
-
-    ],
-    "RinoBaseKit": [
 
     ],
     "RinoBusinessLibraryModule": [
