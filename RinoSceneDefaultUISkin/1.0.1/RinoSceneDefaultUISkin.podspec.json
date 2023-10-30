@@ -8,10 +8,10 @@
   "homepage": "https://github.com/3721iot",
   "license": "none",
   "platforms": {
-    "ios": "12.4"
+    "ios": "13.0"
   },
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231025/OAMAzchObRMxDZ_ios_1698235175166.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231030/OAMAzchObRMxDZ_ios_1698657777128.zip",
     "type": "zip"
   },
   "summary": "A short description of RinoSceneDefaultUISkin.",
@@ -23,9 +23,6 @@
     ],
     "Masonry": [
       "~> 1.1.0"
-    ],
-    "MJRefresh": [
-      "~> 3.7.5"
     ],
     "SDWebImage": [
       "~> 5.11.1"
@@ -48,16 +45,13 @@
     "RinoFoundationKit": [
 
     ],
-    "RinoHomeDefaultUISkin": [
-
-    ],
     "RinoLanguageKit": [
 
     ],
     "RinoLibraryModule": [
 
     ],
-    "RinoNetworkRequestKit": [
+    "RinoMapBusinessLibrary": [
 
     ],
     "RinoNFCDefaultUISKin": [
