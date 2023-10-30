@@ -8,7 +8,7 @@
   "homepage": "https://github.com/3721iot",
   "license": "none",
   "platforms": {
-    "ios": "12.4"
+    "ios": "13.0"
   },
   "source": {
     "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231024/OAMAzchObRMxDZ_ios_1698111298413.zip",
@@ -23,9 +23,6 @@
     ],
     "MJExtension": [
       "~> 3.4.1"
-    ],
-    "MJRefresh": [
-      "~> 3.7.5"
     ],
     "SDWebImage": [
       "~> 5.11.1"
