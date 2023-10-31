@@ -11,9 +11,12 @@
     "ios": "12.4"
   },
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231024/OAMAzchObRMxDZ_ios_1698139975739.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231031/OAMAzchObRMxDZ_ios_1698743090437.zip",
     "type": "zip"
   },
+  "resources": [
+    "Build/RinoLanguageKit.xcframework/ios-arm64/RinoLanguageKit.framework/*.bundle"
+  ],
   "summary": "A short description of RinoLanguageKit.",
   "vendored_frameworks": "Build/RinoLanguageKit.xcframework",
   "version": "1.0.1",
