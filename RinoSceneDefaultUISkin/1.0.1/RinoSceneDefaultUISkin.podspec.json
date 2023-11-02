@@ -10,11 +10,14 @@
   "platforms": {
     "ios": "13.0"
   },
+  "summary": "A short description of RinoSceneDefaultUISkin.",
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231030/OAMAzchObRMxDZ_ios_1698657777128.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231102/OAMAzchObRMxDZ_ios_1698905027451.zip",
     "type": "zip"
   },
-  "summary": "A short description of RinoSceneDefaultUISkin.",
+  "resources": [
+    "Build/RinoSceneDefaultUISkin.xcframework/ios-arm64/RinoSceneDefaultUISkin.framework/*.bundle"
+  ],
   "vendored_frameworks": "Build/RinoSceneDefaultUISkin.xcframework",
   "version": "1.0.1",
   "dependencies": {
