@@ -10,20 +10,20 @@
   "platforms": {
     "ios": "13.0"
   },
+  "summary": "A short description of RinoUserDefaultUISkin.",
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231101/OAMAzchObRMxDZ_ios_1698836615765.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231102/OAMAzchObRMxDZ_ios_1698890612775.zip",
     "type": "zip"
   },
-  "summary": "A short description of RinoUserDefaultUISkin.",
+  "resources": [
+    "Build/ATAuthSDK.framework/ATAuthSDK.bundle",
+    "Build/RinoUserDefaultUISkin.xcframework/ios-arm64/RinoUserDefaultUISkin.framework/*.bundle"
+  ],
   "vendored_frameworks": [
     "Build/RinoUserDefaultUISkin.xcframework",
     "Build/ATAuthSDK.framework",
     "Build/YTXMonitor.framework",
     "Build/YTXOperators.framework"
-  ],
-  "resources": [
-    "Build/ATAuthSDK.framework/ATAuthSDK.bundle",
-    "Build/RinoUserDefaultUISkin.xcframework/ios-arm64/RinoUserDefaultUISkin.framework/*.bundle"
   ],
   "version": "1.0.1",
   "dependencies": {
