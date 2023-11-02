@@ -10,14 +10,16 @@
   "platforms": {
     "ios": "13.0"
   },
+  "summary": "A short description of RinoBusinessLibraryModule.",
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231026/OAMAzchObRMxDZ_ios_1698322233322.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231102/OAMAzchObRMxDZ_ios_1698891982164.zip",
     "type": "zip"
   },
-  "summary": "A short description of RinoBusinessLibraryModule.",
+  "resources": [
+    "Build/RinoBusinessLibraryModule.xcframework/ios-arm64/RinoBusinessLibraryModule.framework/*.bundle"
+  ],
   "vendored_frameworks": "Build/RinoBusinessLibraryModule.xcframework",
   "version": "1.0.1",
-  "prefix_header_file": "RinoBusinessLibraryModule/PrefixHeader.pch",
   "dependencies": {
     "Masonry": [
       "~> 1.1.0"
