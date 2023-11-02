@@ -10,11 +10,14 @@
   "platforms": {
     "ios": "13.0"
   },
+  "summary": "A short description of RinoThirdPartyVoiceKit.",
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231027/OAMAzchObRMxDZ_ios_1698395921705.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231102/OAMAzchObRMxDZ_ios_1698905628392.zip",
     "type": "zip"
   },
-  "summary": "A short description of RinoThirdPartyVoiceKit.",
+  "resources": [
+    "Build/RinoThirdPartyVoiceKit.xcframework/ios-arm64/RinoThirdPartyVoiceKit.framework/*.bundle"
+  ],
   "vendored_frameworks": "Build/RinoThirdPartyVoiceKit.xcframework",
   "version": "1.0.1",
   "dependencies": {
