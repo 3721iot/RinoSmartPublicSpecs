@@ -10,11 +10,14 @@
   "platforms": {
     "ios": "13.0"
   },
+  "summary": "A short description of RinoMapBusinessLibrary.",
   "source": {
-    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231026/OAMAzchObRMxDZ_ios_1698315366164.zip",
+    "http": "https://rinoiot-iot-test-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231103/OAMAzchObRMxDZ_ios_1698994593283.zip",
     "type": "zip"
   },
-  "summary": "A short description of RinoMapBusinessLibrary.",
+  "resources": [
+    "Build/RinoMapBusinessLibrary.xcframework/ios-arm64/RinoMapBusinessLibrary.framework/*.bundle"
+  ],
   "vendored_frameworks": "Build/RinoMapBusinessLibrary.xcframework",
   "version": "1.0.0",
   "dependencies": {
