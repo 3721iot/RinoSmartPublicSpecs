@@ -39,23 +39,8 @@
     "WechatOpenSDK": [
       "~> 2.0.2"
     ],
-    "RinoAppConfigModule": [
-
-    ],
     "RinoBaseKit": [
       "~> 1.0.5"
-    ],
-    "RinoBizCore": [
-
-    ],
-    "RinoLanguageKit": [
-
-    ],
-    "RinoLibraryModule": [
-
-    ],
-    "RinoUIKit": [
-
     ]
   },
   "pod_target_xcconfig": {
