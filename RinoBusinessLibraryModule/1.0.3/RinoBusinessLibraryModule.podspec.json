@@ -12,14 +12,14 @@
   },
   "summary": "A short description of RinoBusinessLibraryModule.",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240510/JgRjr3ltOVkjay_ios_1715307739880.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240513/JgRjr3ltOVkjay_ios_1715568754800.zip",
     "type": "zip"
   },
   "resources": [
     "Build/RinoBusinessLibraryModule.xcframework/ios-arm64/RinoBusinessLibraryModule.framework/*.bundle"
   ],
   "vendored_frameworks": "Build/RinoBusinessLibraryModule.xcframework",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "dependencies": {
     "RinoBaseKit": [
       "~> 1.0.5"
