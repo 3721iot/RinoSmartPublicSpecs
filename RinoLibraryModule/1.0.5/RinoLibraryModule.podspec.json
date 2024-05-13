@@ -19,10 +19,13 @@
   ],
   "summary": "A short description of RinoLibraryModule.",
   "vendored_frameworks": "Build/RinoLibraryModule.xcframework",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "dependencies": {
     "Masonry": [
       "~> 1.1.0"
+    ],
+    "MJRefresh": [
+      "~> 3.7.5"
     ],
     "TZImagePickerController": [
       "~> 3.8.3"
