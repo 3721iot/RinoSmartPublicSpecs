@@ -12,15 +12,15 @@
   },
   "summary": "A short description of RinoUserBizKit.",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240514/JgRjr3ltOVkjay_ios_1715672446558.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240514/JgRjr3ltOVkjay_ios_1715678881950.zip",
     "type": "zip"
   },
   "resources": [
     "Build/ATAuthSDK.framework/ATAuthSDK.bundle",
-    "Build/RinoUserDefaultUISkin.xcframework/ios-arm64/RinoUserDefaultUISkin.framework/*.bundle"
+    "Build/RinoUserBizKit.xcframework/ios-arm64/RinoUserBizKit.framework/*.bundle"
   ],
   "vendored_frameworks": [
-    "Build/RinoUserDefaultUISkin.xcframework",
+    "Build/RinoUserBizKit.xcframework",
     "Build/ATAuthSDK.framework",
     "Build/YTXMonitor.framework",
     "Build/YTXOperators.framework"
