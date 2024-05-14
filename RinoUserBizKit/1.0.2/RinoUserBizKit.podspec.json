@@ -10,11 +10,11 @@
   "platforms": {
     "ios": "13.0"
   },
+  "summary": "A short description of RinoUserBizKit.",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240510/JgRjr3ltOVkjay_ios_1715326644090.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240514/JgRjr3ltOVkjay_ios_1715670964735.zip",
     "type": "zip"
   },
-  "summary": "A short description of RinoUserBizKit.",
   "resources": [
     "Build/ATAuthSDK.framework/ATAuthSDK.bundle",
     "Build/RinoUserDefaultUISkin.xcframework/ios-arm64/RinoUserDefaultUISkin.framework/*.bundle"
