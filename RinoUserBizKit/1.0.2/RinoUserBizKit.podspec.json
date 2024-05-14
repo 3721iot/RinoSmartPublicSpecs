@@ -12,7 +12,7 @@
   },
   "summary": "A short description of RinoUserBizKit.",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240514/JgRjr3ltOVkjay_ios_1715670964735.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240514/JgRjr3ltOVkjay_ios_1715672446558.zip",
     "type": "zip"
   },
   "resources": [
@@ -40,6 +40,9 @@
       "~> 2.0.2"
     ],
     "RinoBaseKit": [
+      "~> 1.0.5"
+    ],
+    "RinoLibraryModule": [
       "~> 1.0.5"
     ]
   },
