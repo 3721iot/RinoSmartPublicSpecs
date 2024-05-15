@@ -31,19 +31,19 @@
       "~> 5.11.1"
     ],
     "RinoActivatorKit": [
-
+      "~> 1.0.3"
     ],
     "RinoBusinessLibraryModule": [
-
+      "~> 1.0.3"
     ],
     "RinoDeviceKit": [
-
+      "~> 1.0.5"
     ],
     "RinoScanKit": [
-
+      "~> 1.0.3"
     ],
     "RinoUserDefaultUISkin": [
-
+      "~> 1.0.5"
     ]
   },
   "pod_target_xcconfig": {

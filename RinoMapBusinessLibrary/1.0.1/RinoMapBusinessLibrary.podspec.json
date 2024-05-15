@@ -1,0 +1,54 @@
+{
+  "name": "RinoMapBusinessLibrary",
+  "authors": {
+    "RinoSmartInc": "RinoSmart"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3721iot",
+  "license": "none",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "summary": "A short description of RinoMapBusinessLibrary.",
+  "source": {
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240515/JgRjr3ltOVkjay_ios_1715744765406.zip",
+    "type": "zip"
+  },
+  "resources": [
+    "Build/RinoMapBusinessLibrary.xcframework/ios-arm64/RinoMapBusinessLibrary.framework/*.bundle"
+  ],
+  "vendored_frameworks": "Build/RinoMapBusinessLibrary.xcframework",
+  "version": "1.0.1",
+  "dependencies": {
+    "AMap2DMap": [
+      "~> 5.6.1"
+    ],
+    "AMapSearch": [
+      "~> 9.4.5"
+    ],
+    "AMapLocation": [
+      "~> 2.9.0"
+    ],
+    "GoogleMaps": [
+      "~> 6.2.1"
+    ],
+    "GooglePlaces": [
+      "~> 6.2.1"
+    ],
+    "INTULocationManager": [
+      "~> 4.4.0"
+    ],
+    "RinoBusinessLibraryModule": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  }
+}
