@@ -1,5 +1,5 @@
 {
-  "name": "RinoHomeDefaultUISkin",
+  "name": "RinoUserSettingsDefaultUISkin",
   "authors": {
     "RinoSmartInc": "RinoSmart"
   },
@@ -10,34 +10,36 @@
   "platforms": {
     "ios": "13.0"
   },
-  "summary": "A short description of RinoHomeDefaultUISkin.",
+  "summary": "A short description of RinoUserSettingsDefaultUISkin.",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240517/JgRjr3ltOVkjay_ios_1715933940503.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240517/JgRjr3ltOVkjay_ios_1715931244532.zip",
     "type": "zip"
   },
   "resources": [
-    "Build/RinoHomeDefaultUISkin.xcframework/ios-arm64/RinoHomeDefaultUISkin.framework/*.bundle"
+    "Build/RinoUserSettingsDefaultUISkin.xcframework/ios-arm64/RinoUserSettingsDefaultUISkin.framework/*.bundle"
   ],
-  "vendored_frameworks": "Build/RinoHomeDefaultUISkin.xcframework",
+  "vendored_frameworks": [
+    "Build/RinoUserSettingsDefaultUISkin.xcframework"
+  ],
   "version": "1.0.4",
   "dependencies": {
     "SDWebImage": [
       "~> 5.11.1"
     ],
+    "RinoAppUpgradeKit": [
+      "~> 1.0.2"
+    ],
     "RinoBusinessLibraryModule": [
       "~> 1.0.3"
     ],
-    "RinoDeviceKit": [
-      "~> 1.0.5"
-    ],
-    "RinoHomeKit": [
-      "~> 1.0.2"
-    ],
-    "RinoMapBusinessLibrary": [
-      "~> 1.0.1"
+    "RinoFileUploadKit": [
+      "~> 1.0.0"
     ],
     "RinoUserDefaultUISkin": [
       "~> 1.0.5"
+    ],
+    "RinoWebViewKit": [
+      "~> 1.0.4"
     ]
   },
   "pod_target_xcconfig": {
