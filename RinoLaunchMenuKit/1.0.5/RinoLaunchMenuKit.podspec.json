@@ -1,0 +1,90 @@
+{
+  "name": "RinoLaunchMenuKit",
+  "authors": {
+    "RinoSmartInc": "RinoSmart"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3721iot",
+  "license": "none",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "summary": "A short description of RinoLaunchMenuKit.",
+  "source": {
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240517/JgRjr3ltOVkjay_ios_1715937880878.zip",
+    "type": "zip"
+  },
+  "resources": [
+    "Build/RinoLaunchMenuKit.xcframework/ios-arm64/RinoLaunchMenuKit.framework/*.bundle"
+  ],
+  "vendored_frameworks": "Build/RinoLaunchMenuKit.xcframework",
+  "version": "1.0.5",
+  "dependencies": {
+    "JXCategoryView": [
+      "~> 1.6.1"
+    ],
+    "JXPagingView": [
+      "~> 2.1.2"
+    ],
+    "SDWebImage": [
+      "~> 5.11.1"
+    ],
+    "SSZipArchive": [
+      "~> 2.4.3"
+    ],
+    "RinoActivatorDefaultUISkin": [
+      "~> 1.0.4"
+    ],
+    "RinoAppUpgradeKit": [
+      "~> 1.0.2"
+    ],
+    "RinoBusinessLibraryModule": [
+      "~> 1.0.3"
+    ],
+    "RinoDebugKit": [
+      "~> 1.0.2"
+    ],
+    "RinoDeviceDetailDefaultUISkin": [
+      "~> 1.0.5"
+    ],
+    "RinoDeviceKit": [
+      "~> 1.0.5"
+    ],
+    "RinoHomeDefaultUISkin": [
+      "~> 1.0.4"
+    ],
+    "RinoIPCKit": [
+      "~> 1.0.4"
+    ],
+    "RinoMessageDefaultUISKin": [
+      "~> 1.0.5"
+    ],
+    "RinoNFCKit": [
+      "~> 1.0.2"
+    ],
+    "RinoScanBusinessKit": [
+      "~> 1.0.4"
+    ],
+    "RinoSceneDefaultUISkin": [
+      "~> 1.0.5"
+    ],
+    "RinoThirdPartyVoiceKit": [
+      "~> 1.0.1"
+    ],
+    "RinoUserDefaultUISkin": [
+      "~> 1.0.5"
+    ],
+    "RinoUserSettingsDefaultUISkin": [
+      "~> 1.0.4"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  }
+}
