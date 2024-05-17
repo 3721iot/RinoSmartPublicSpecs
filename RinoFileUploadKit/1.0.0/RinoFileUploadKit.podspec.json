@@ -1,33 +1,30 @@
 {
-  "name": "RinoAppUpgradeKit",
+  "name": "RinoFileUploadKit",
   "authors": {
     "RinoSmartInc": "RinoSmart"
   },
   "cocoapods_version": ">= 1.10",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/3721iot",
-  "license": "none",
   "platforms": {
-    "ios": "13.0"
+    "ios": "12.4"
   },
-  "summary": "A short description of RinoAppUpgradeKit.",
+  "license": "none",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240517/JgRjr3ltOVkjay_ios_1715911158572.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240516/JgRjr3ltOVkjay_ios_1715849396811.zip",
     "type": "zip"
   },
-  "resources": [
-    "Build/RinoAppUpgradeKit.xcframework/ios-arm64/RinoAppUpgradeKit.framework/*.bundle"
-  ],
-  "vendored_frameworks": "Build/RinoAppUpgradeKit.xcframework",
-  "version": "1.0.2",
+  "summary": "A short description of RinoFileUploadKit.",
+  "vendored_frameworks": "Build/RinoFileUploadKit.xcframework",
+  "version": "1.0.0",
   "dependencies": {
-    "Masonry": [
-      "~> 1.1.0"
+    "AWSS3": [
+      "~> 2.36.2"
+    ],
+    "QCloudCOSXML/Transfer": [
+      "~> 6.3.5"
     ],
     "RinoBaseKit": [
-      "~> 1.0.5"
-    ],
-    "RinoLibraryModule": [
       "~> 1.0.5"
     ]
   },

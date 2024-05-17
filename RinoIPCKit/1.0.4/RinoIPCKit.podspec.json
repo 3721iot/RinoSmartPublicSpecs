@@ -1,5 +1,5 @@
 {
-  "name": "RinoAppUpgradeKit",
+  "name": "RinoIPCKit",
   "authors": {
     "RinoSmartInc": "RinoSmart"
   },
@@ -10,25 +10,27 @@
   "platforms": {
     "ios": "13.0"
   },
-  "summary": "A short description of RinoAppUpgradeKit.",
+  "summary": "A short description of RinoIPCKit.",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240517/JgRjr3ltOVkjay_ios_1715911158572.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240516/JgRjr3ltOVkjay_ios_1715832062311.zip",
     "type": "zip"
   },
-  "resources": [
-    "Build/RinoAppUpgradeKit.xcframework/ios-arm64/RinoAppUpgradeKit.framework/*.bundle"
+  "vendored_frameworks": [
+    "Build/RinoIPCKit.xcframework"
   ],
-  "vendored_frameworks": "Build/RinoAppUpgradeKit.xcframework",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "dependencies": {
-    "Masonry": [
-      "~> 1.1.0"
+    "AgoraRtcEngine_iOS": [
+      "~> 4.2.1"
     ],
-    "RinoBaseKit": [
+    "SDWebImage": [
+      "~> 5.11.1"
+    ],
+    "RinoDeviceKit": [
       "~> 1.0.5"
     ],
-    "RinoLibraryModule": [
-      "~> 1.0.5"
+    "RinoWebViewKit": [
+      "~> 1.0.4"
     ]
   },
   "pod_target_xcconfig": {

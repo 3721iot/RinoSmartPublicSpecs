@@ -1,5 +1,5 @@
 {
-  "name": "RinoAppUpgradeKit",
+  "name": "RinoNFCKit",
   "authors": {
     "RinoSmartInc": "RinoSmart"
   },
@@ -10,24 +10,36 @@
   "platforms": {
     "ios": "13.0"
   },
-  "summary": "A short description of RinoAppUpgradeKit.",
+  "summary": "A short description of RinoNFCKit.",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240517/JgRjr3ltOVkjay_ios_1715911158572.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240516/JgRjr3ltOVkjay_ios_1715915725022.zip",
     "type": "zip"
   },
   "resources": [
-    "Build/RinoAppUpgradeKit.xcframework/ios-arm64/RinoAppUpgradeKit.framework/*.bundle"
+    "Build/RinoNFCKit.xcframework/ios-arm64/RinoNFCKit.framework/*.bundle"
   ],
-  "vendored_frameworks": "Build/RinoAppUpgradeKit.xcframework",
+  "vendored_frameworks": "Build/RinoNFCKit.xcframework",
   "version": "1.0.2",
   "dependencies": {
-    "Masonry": [
-      "~> 1.1.0"
+    "SDWebImage": [
+      "~> 5.11.1"
     ],
-    "RinoBaseKit": [
+    "RinoActivatorDefaultUISkin": [
+      "~> 1.0.4"
+    ],
+    "RinoBusinessLibraryModule": [
+      "~> 1.0.3"
+    ],
+    "RinoDeviceKit": [
       "~> 1.0.5"
     ],
-    "RinoLibraryModule": [
+    "RinoNFCDefaultUISKin": [
+      "~> 1.0.1"
+    ],
+    "RinoSceneDefaultUISkin": [
+      "~> 1.0.5"
+    ],
+    "RinoSceneKit": [
       "~> 1.0.5"
     ]
   },
