@@ -18,14 +18,11 @@
   "vendored_frameworks": "Build/RinoMQTTKit.xcframework",
   "version": "1.0.3",
   "dependencies": {
-    "MJExtension": [
-      "~> 3.4.1"
-    ],
     "MQTTClient": [
       "~> 0.15.3"
     ],
     "RinoFoundationKit": [
-      "~> 1.0.4"
+      "~> 1.0.5"
     ],
     "RinoLog": [
       "~> 1.0.0"

@@ -1,25 +1,37 @@
 {
-  "name": "RinoBizCore",
+  "name": "RinoNetworkRequestKit",
   "authors": {
     "RinoSmartInc": "RinoSmart"
   },
   "cocoapods_version": ">= 1.10",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/3721iot",
+  "license": "none",
   "platforms": {
     "ios": "12.4"
   },
-  "license": "none",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240506/JgRjr3ltOVkjay_ios_1714985738398.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240521/JgRjr3ltOVkjay_ios_1716256052979.zip",
     "type": "zip"
   },
-  "summary": "A short description of RinoBizCore.",
-  "vendored_frameworks": "Build/RinoBizCore.xcframework",
+  "summary": "A short description of RinoNetworkRequestKit.",
+  "vendored_frameworks": "Build/RinoNetworkRequestKit.xcframework",
   "version": "1.0.5",
   "dependencies": {
-    "RinoFoundationKit": [
+    "AFNetworking": [
+      "~> 4.0.1"
+    ],
+    "RinoAppConfigModule": [
+      "~> 1.0.4"
+    ],
+    "RinoBizCore": [
       "~> 1.0.5"
+    ],
+    "RinoLanguageKit": [
+      "~> 1.0.5"
+    ],
+    "RinoLog": [
+      "~> 1.0.0"
     ]
   },
   "pod_target_xcconfig": {
