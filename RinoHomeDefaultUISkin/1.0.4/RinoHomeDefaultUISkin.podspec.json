@@ -27,9 +27,6 @@
     "RinoBusinessLibraryModule": [
       "~> 1.0.3"
     ],
-    "RinoDeviceKit": [
-      "~> 1.0.5"
-    ],
     "RinoHomeKit": [
       "~> 1.0.2"
     ],

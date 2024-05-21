@@ -19,7 +19,7 @@
   "version": "1.0.2",
   "dependencies": {
     "RinoDeviceKit": [
-      "~> 1.0.5"
+      "~> 1.0.6"
     ]
   },
   "pod_target_xcconfig": {

@@ -21,47 +21,17 @@
   "vendored_frameworks": "Build/RinoThirdPartyVoiceKit.xcframework",
   "version": "1.0.1",
   "dependencies": {
-    "Masonry": [
-      "~> 1.1.0"
-    ],
-    "MJExtension": [
-      "~> 3.4.1"
-    ],
     "SDWebImage": [
       "~> 5.11.1"
     ],
-    "RinoAppConfigModule": [
-
-    ],
-    "RinoBaseKit": [
-
-    ],
     "RinoBusinessLibraryModule": [
-
+      "~> 1.0.3"
     ],
     "RinoCommonDefineKit": [
-
-    ],
-    "RinoFoundationKit": [
-
-    ],
-    "RinoLanguageKit": [
-
-    ],
-    "RinoLibraryModule": [
-
-    ],
-    "RinoNetworkRequestKit": [
-
-    ],
-    "RinoProgressHUD": [
-
-    ],
-    "RinoUIKit": [
-
+      "~> 1.0.3"
     ],
     "RinoWebViewKit": [
-
+      "~> 1.0.4"
     ]
   },
   "pod_target_xcconfig": {

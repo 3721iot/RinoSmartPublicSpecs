@@ -32,9 +32,6 @@
     "RinoBusinessLibraryModule": [
       "~> 1.0.3"
     ],
-    "RinoDeviceKit": [
-      "~> 1.0.5"
-    ],
     "RinoMapBusinessLibrary": [
       "~> 1.0.1"
     ],

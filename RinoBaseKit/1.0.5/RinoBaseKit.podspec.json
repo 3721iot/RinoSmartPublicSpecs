@@ -18,29 +18,14 @@
   "vendored_frameworks": "Build/RinoBaseKit.xcframework",
   "version": "1.0.5",
   "dependencies": {
-    "RinoAppConfigModule": [
-      "~> 1.0.4"
-    ],
-    "RinoBizCore": [
-      "~> 1.0.5"
-    ],
     "RinoCommonDefineKit": [
       "~> 1.0.3"
-    ],
-    "RinoFoundationKit": [
-      "~> 1.0.4"
-    ],
-    "RinoLanguageKit": [
-      "~> 1.0.5"
     ],
     "RinoMQTTKit": [
       "~> 1.0.3"
     ],
     "RinoNetworkRequestKit": [
-      "~> 1.0.4"
-    ],
-    "RinoUIKit": [
-      "~> 1.0.3"
+      "~> 1.0.5"
     ]
   },
   "pod_target_xcconfig": {

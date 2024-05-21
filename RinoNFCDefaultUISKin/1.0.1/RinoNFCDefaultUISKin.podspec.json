@@ -21,31 +21,7 @@
   "vendored_frameworks": "Build/RinoNFCDefaultUISKin.xcframework",
   "version": "1.0.1",
   "dependencies": {
-    "Masonry": [
-      "~> 1.1.0"
-    ],
-    "RinoAppConfigModule": [
-
-    ],
     "RinoBusinessLibraryModule": [
-
-    ],
-    "RinoFoundationKit": [
-
-    ],
-    "RinoLanguageKit": [
-
-    ],
-    "RinoLibraryModule": [
-
-    ],
-    "RinoNetworkRequestKit": [
-
-    ],
-    "RinoProgressHUD": [
-
-    ],
-    "RinoUIKit": [
 
     ]
   },

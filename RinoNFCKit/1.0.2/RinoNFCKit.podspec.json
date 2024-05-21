@@ -30,9 +30,6 @@
     "RinoBusinessLibraryModule": [
       "~> 1.0.3"
     ],
-    "RinoDeviceKit": [
-      "~> 1.0.5"
-    ],
     "RinoNFCDefaultUISKin": [
       "~> 1.0.1"
     ],
