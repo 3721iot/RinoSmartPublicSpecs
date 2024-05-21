@@ -48,14 +48,11 @@
     "RinoDeviceDetailDefaultUISkin": [
       "~> 1.0.5"
     ],
-    "RinoDeviceKit": [
-      "~> 1.0.5"
-    ],
     "RinoHomeDefaultUISkin": [
       "~> 1.0.4"
     ],
     "RinoIPCKit": [
-      "~> 1.0.4"
+      "~> 1.0.5"
     ],
     "RinoMessageDefaultUISKin": [
       "~> 1.0.5"
