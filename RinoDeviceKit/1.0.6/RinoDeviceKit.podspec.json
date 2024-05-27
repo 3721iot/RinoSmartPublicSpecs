@@ -16,7 +16,7 @@
   },
   "summary": "A short description of RinoDeviceKit.",
   "vendored_frameworks": "Build/RinoDeviceKit.xcframework",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "swift_versions": "5.0",
   "frameworks": [
     "Foundation",
