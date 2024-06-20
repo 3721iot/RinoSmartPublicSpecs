@@ -1,0 +1,43 @@
+{
+  "name": "RinoDeviceKit",
+  "authors": {
+    "RinoSmartInc": "RinoSmart"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3721iot",
+  "license": "none",
+  "platforms": {
+    "ios": "12.4"
+  },
+  "source": {
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240507/JgRjr3ltOVkjay_ios_1715070732859.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of RinoDeviceKit.",
+  "vendored_frameworks": "Build/RinoDeviceKit.xcframework",
+  "version": "1.0.5",
+  "swift_versions": "5.0",
+  "frameworks": [
+    "Foundation",
+    "Matter",
+    "MatterSupport"
+  ],
+  "dependencies": {
+    "RinoBaseKit": [
+      "~> 1.0.5"
+    ],
+    "RinoLog": [
+      "~> 1.0.0"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "swift_version": "5.0"
+}
