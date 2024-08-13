@@ -1,5 +1,5 @@
 {
-  "name": "RinoBusinessLibraryModule",
+  "name": "RinoWebViewKit",
   "authors": {
     "RinoSmartInc": "RinoSmart"
   },
@@ -10,27 +10,24 @@
   "platforms": {
     "ios": "13.0"
   },
-  "summary": "A short description of RinoBusinessLibraryModule.",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240809/JgRjr3ltOVkjay_ios_1723195364052.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240813/JgRjr3ltOVkjay_ios_1723519535761.zip",
     "type": "zip"
   },
+  "summary": "A short description of RinoWebViewKit.",
   "resources": [
-    "Build/RinoBusinessLibraryModule.xcframework/ios-arm64/RinoBusinessLibraryModule.framework/*.bundle"
+    "Build/RinoWebViewKit.xcframework/ios-arm64/RinoWebViewKit.framework/*.bundle"
   ],
-  "vendored_frameworks": "Build/RinoBusinessLibraryModule.xcframework",
+  "vendored_frameworks": "Build/RinoWebViewKit.xcframework",
   "version": "1.1.0",
   "dependencies": {
-    "JXCategoryView": [
-      "~> 1.6.1"
+    "dsBridge": [
+      "~> 3.0.6"
     ],
-    "JXPagingView": [
-      "~> 2.1.2"
-    ],
-    "RinoBaseKit": [
+    "RinoBusinessLibraryModule": [
       "~> 1.1.0"
     ],
-    "RinoLibraryModule": [
+    "RinoDebugKit": [
       "~> 1.1.0"
     ]
   },

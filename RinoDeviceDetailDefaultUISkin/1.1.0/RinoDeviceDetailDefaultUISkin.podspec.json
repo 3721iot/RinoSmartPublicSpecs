@@ -1,5 +1,5 @@
 {
-  "name": "RinoBusinessLibraryModule",
+  "name": "RinoDeviceDetailDefaultUISkin",
   "authors": {
     "RinoSmartInc": "RinoSmart"
   },
@@ -10,27 +10,29 @@
   "platforms": {
     "ios": "13.0"
   },
-  "summary": "A short description of RinoBusinessLibraryModule.",
+  "summary": "A short description of RinoDeviceDetailDefaultUISkin.",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240809/JgRjr3ltOVkjay_ios_1723195364052.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240813/JgRjr3ltOVkjay_ios_1723529663853.zip",
     "type": "zip"
   },
   "resources": [
-    "Build/RinoBusinessLibraryModule.xcframework/ios-arm64/RinoBusinessLibraryModule.framework/*.bundle"
+    "Build/RinoDeviceDetailDefaultUISkin.xcframework/ios-arm64/RinoDeviceDetailDefaultUISkin.framework/*.bundle"
   ],
-  "vendored_frameworks": "Build/RinoBusinessLibraryModule.xcframework",
+  "vendored_frameworks": [
+    "Build/RinoDeviceDetailDefaultUISkin.xcframework"
+  ],
   "version": "1.1.0",
   "dependencies": {
-    "JXCategoryView": [
-      "~> 1.6.1"
+    "YBImageBrowser": [
+      "~> 3.0.9"
     ],
-    "JXPagingView": [
-      "~> 2.1.2"
+    "YBImageBrowser/Video": [
+      "~> 3.0.9"
     ],
-    "RinoBaseKit": [
+    "RinoBusinessLibraryModule": [
       "~> 1.1.0"
     ],
-    "RinoLibraryModule": [
+    "RinoDeviceKit": [
       "~> 1.1.0"
     ]
   },
