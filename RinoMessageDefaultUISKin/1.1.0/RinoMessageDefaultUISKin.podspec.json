@@ -1,5 +1,5 @@
 {
-  "name": "RinoBusinessLibraryModule",
+  "name": "RinoMessageDefaultUISKin",
   "authors": {
     "RinoSmartInc": "RinoSmart"
   },
@@ -10,27 +10,29 @@
   "platforms": {
     "ios": "13.0"
   },
-  "summary": "A short description of RinoBusinessLibraryModule.",
+  "summary": "A short description of RinoMessageDefaultUISKin.",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240813/JgRjr3ltOVkjay_ios_1723531833499.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240813/JgRjr3ltOVkjay_ios_1723530593227.zip",
     "type": "zip"
   },
   "resources": [
-    "Build/RinoBusinessLibraryModule.xcframework/ios-arm64/RinoBusinessLibraryModule.framework/*.bundle"
+    "Build/RinoMessageDefaultUISKin.xcframework/ios-arm64/RinoMessageDefaultUISKin.framework/*.bundle"
   ],
-  "vendored_frameworks": "Build/RinoBusinessLibraryModule.xcframework",
+  "vendored_frameworks": [
+    "Build/RinoMessageDefaultUISKin.xcframework"
+  ],
   "version": "1.1.0",
   "dependencies": {
-    "JXCategoryView": [
-      "~> 1.6.1"
-    ],
-    "JXPagingView": [
-      "~> 2.1.2"
-    ],
-    "RinoBaseKit": [
+    "RinoBusinessLibraryModule": [
       "~> 1.1.0"
     ],
-    "RinoLibraryModule": [
+    "RinoDeviceKit": [
+      "~> 1.1.0"
+    ],
+    "RinoMessageKit": [
+      "~> 1.1.0"
+    ],
+    "RinoSceneKit": [
       "~> 1.1.0"
     ]
   },
