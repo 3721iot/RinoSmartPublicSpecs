@@ -1,5 +1,5 @@
 {
-  "name": "RinoActivatorDefaultUISkin",
+  "name": "RinoHomeDefaultUISkin",
   "authors": {
     "RinoSmartInc": "RinoSmart"
   },
@@ -10,27 +10,27 @@
   "platforms": {
     "ios": "13.0"
   },
-  "summary": "A short description of RinoActivatorDefaultUISkin.",
+  "summary": "A short description of RinoHomeDefaultUISkin.",
   "source": {
-    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240515/JgRjr3ltOVkjay_ios_1715741053356.zip",
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240813/JgRjr3ltOVkjay_ios_1723534541885.zip",
     "type": "zip"
   },
   "resources": [
-    "Build/RinoActivatorDefaultUISkin.xcframework/ios-arm64/RinoActivatorDefaultUISkin.framework/*.bundle"
+    "Build/RinoHomeDefaultUISkin.xcframework/ios-arm64/RinoHomeDefaultUISkin.framework/*.bundle"
   ],
-  "vendored_frameworks": "Build/RinoActivatorDefaultUISkin.xcframework",
+  "vendored_frameworks": "Build/RinoHomeDefaultUISkin.xcframework",
   "version": "1.1.0",
   "dependencies": {
-    "RinoActivatorBizKit": [
-      "~> 1.1.0"
-    ],
     "RinoBusinessLibraryModule": [
       "~> 1.1.0"
     ],
-    "RinoDeviceKit": [
+    "RinoHomeKit": [
       "~> 1.1.0"
     ],
-    "RinoScanKit": [
+    "RinoMapBusinessLibrary": [
+      "~> 1.1.0"
+    ],
+    "RinoUserDefaultUISkin": [
       "~> 1.1.0"
     ]
   },
