@@ -1,0 +1,78 @@
+{
+  "name": "RinoLaunchMenuKit",
+  "authors": {
+    "RinoSmartInc": "RinoSmart"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3721iot",
+  "license": "none",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "summary": "A short description of RinoLaunchMenuKit.",
+  "source": {
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240814/JgRjr3ltOVkjay_ios_1723605737366.zip",
+    "type": "zip"
+  },
+  "vendored_frameworks": "Build/RinoLaunchMenuKit.xcframework",
+  "version": "1.1.0",
+  "dependencies": {
+    "SSZipArchive": [
+      "~> 2.4.3"
+    ],
+    "RinoActivatorDefaultUISkin": [
+      "~> 1.1.0"
+    ],
+    "RinoAppUpgradeKit": [
+      "~> 1.1.0"
+    ],
+    "RinoBusinessLibraryModule": [
+      "~> 1.1.0"
+    ],
+    "RinoDebugKit": [
+      "~> 1.1.0"
+    ],
+    "RinoDeviceDetailDefaultUISkin": [
+      "~> 1.1.0"
+    ],
+    "RinoHomeDefaultUISkin": [
+      "~> 1.1.0"
+    ],
+    "RinoIPCKit": [
+      "~> 1.1.0"
+    ],
+    "RinoMessageDefaultUISKin": [
+      "~> 1.1.0"
+    ],
+    "RinoNFCKit": [
+      "~> 1.1.0"
+    ],
+    "RinoScanBusinessKit": [
+      "~> 1.1.0"
+    ],
+    "RinoSceneDefaultUISkin": [
+      "~> 1.1.0"
+    ],
+    "RinoThirdPartyVoiceDefaultUISkin": [
+      "~> 1.1.0"
+    ],
+    "RinoThirdPartyVoiceKit": [
+      "~> 1.1.0"
+    ],
+    "RinoUserDefaultUISkin": [
+      "~> 1.1.0"
+    ],
+    "RinoUserSettingsDefaultUISkin": [
+      "~> 1.1.0"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  }
+}
