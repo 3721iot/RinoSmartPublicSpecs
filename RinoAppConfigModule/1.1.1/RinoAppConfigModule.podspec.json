@@ -1,0 +1,42 @@
+{
+  "name": "RinoAppConfigModule",
+  "authors": {
+    "RinoSmartInc": "RinoSmart"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3721iot",
+  "license": "none",
+  "platforms": {
+    "ios": "12.4"
+  },
+  "summary": "A short description of RinoAppConfigModule.",
+  "source": {
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20240903/JgRjr3ltOVkjay_ios_1725329783621.zip",
+    "type": "zip"
+  },
+  "resources": [
+    "Build/RinoAppConfigModule.xcframework/ios-arm64/RinoAppConfigModule.framework/*.bundle"
+  ],
+  "vendored_frameworks": "Build/RinoAppConfigModule.xcframework",
+  "version": "1.1.1",
+  "dependencies": {
+    "MJExtension": [
+      "~> 3.4.1"
+    ],
+    "RinoFoundationKit": [
+      "~> 1.1.0"
+    ],
+    "RinoUIKit": [
+      "~> 1.1.0"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  }
+}
