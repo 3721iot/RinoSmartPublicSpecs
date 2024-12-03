@@ -1,0 +1,39 @@
+{
+  "name": "RinoImageBrowser",
+  "authors": {
+    "RinoSmartInc": "RinoSmart"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3721iot",
+  "license": "none",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "summary": "A short description of RinoImageBrowser.",
+  "source": {
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20241203/JgRjr3ltOVkjay_ios_1733213250494.zip",
+    "type": "zip"
+  },
+  "resources": [
+    "Build/RinoImageBrowser.xcframework/ios-arm64/RinoImageBrowser.framework/*.bundle"
+  ],
+  "vendored_frameworks": "Build/RinoImageBrowser.xcframework",
+  "version": "1.0.0",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 5.11.1"
+    ],
+    "YYImage": [
+      "~> 1.0.4"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  }
+}
