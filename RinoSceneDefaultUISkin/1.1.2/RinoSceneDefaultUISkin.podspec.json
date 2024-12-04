@@ -1,0 +1,47 @@
+{
+  "name": "RinoSceneDefaultUISkin",
+  "authors": {
+    "RinoSmartInc": "RinoSmart"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3721iot",
+  "license": "none",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "summary": "A short description of RinoSceneDefaultUISkin.",
+  "source": {
+    "http": "https://rinoiot-iot-prod-1313015441.cos.ap-guangzhou.myqcloud.com/app/20241204/JgRjr3ltOVkjay_ios_1733278372261.zip",
+    "type": "zip"
+  },
+  "resources": [
+    "Build/RinoSceneDefaultUISkin.xcframework/ios-arm64/RinoSceneDefaultUISkin.framework/*.bundle"
+  ],
+  "vendored_frameworks": [
+    "Build/RinoSceneDefaultUISkin.xcframework"
+  ],
+  "version": "1.1.2",
+  "dependencies": {
+    "RinoBusinessLibraryModule": [
+      "~> 1.1.2"
+    ],
+    "RinoMapBusinessLibrary": [
+      "~> 1.1.1"
+    ],
+    "RinoNFCDefaultUISKin": [
+      "~> 1.1.1"
+    ],
+    "RinoSceneKit": [
+      "~> 1.1.2"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  }
+}
